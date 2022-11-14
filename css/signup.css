@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: wheat;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flexbox-left {
+    display: flex;
+    flex-grow: 1;
+    background-image: url(/assets/falloutposter.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.flexbox-right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1.4;
+}
+
+.flexbox {
+    display: flex;
+    flex:1;
+    background-color: rgb(71, 5, 5);
+    justify-content: center;
+}
+
+.flexbox-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.flexbox-mid {
+    flex-grow: 1.5;
+    background-color: rgb(6, 43, 43);
+}
