@@ -3,7 +3,7 @@ body {
   height: 100%;
   background-image: url(/assets/background.png);
   background-repeat: no-repeat;
-  background-position: bottom; 
+  background-position: bottom left;
   background-size: cover;
 }
 
@@ -27,7 +27,7 @@ body {
   max-width: 330px;
   padding: 15px;
   margin: 0 auto;
-  background-color: #e7e7e7e3;
+  background-color: #f1ede8;
   border: 1px solid black;
   border-radius: 15px;
 }
@@ -43,12 +43,12 @@ body {
   height: auto;
   padding: 10px;
   font-size: 12px;
-  background-color: #e7e7e756;
+  background-color: #6293bd26;
 }
 
 .form-signin .form-control:focus {
   z-index: 2;
-  background-color: #f7f7f7;
+  background-color: #7fb9ff40;
 }
 
 .form-signin input[type="email"] {
@@ -71,4 +71,9 @@ body {
   font-size: 12px;
   text-decoration: none;
   color: rgb(0, 0, 109);
+}
+
+label {
+  margin-bottom: 0;
+  margin-top: 0;
 }

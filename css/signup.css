@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #646c79;
     color: wheat;
 }
 
@@ -11,35 +11,165 @@ body {
 
 .flexbox-left {
     display: flex;
-    flex-grow: 1;
     background-image: url(/assets/falloutposter.webp);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom left;
+    min-width: 43%;
 }
 
 .flexbox-right {
     display: flex;
     flex-direction: column;
-    flex-grow: 1.4;
+    width: 70vh;
 }
 
 .flexbox {
     display: flex;
     flex:1;
-    background-color: rgb(71, 5, 5);
     justify-content: center;
 }
 
 .flexbox-top {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 30%;
+    flex-direction: column;
+    padding-left: 100px;
+    flex-grow: 1.5;
 }
 
 .flexbox-mid {
     flex-grow: 1.5;
-    background-color: rgb(6, 43, 43);
+    flex-direction: column;
+    padding-left: 100px;
+    justify-content: flex-start;
+}
+
+.flexbox-top h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #b2a65b;
+    font-family: 'Poiret One', cursive;
+}
+
+.flexbox-top p {
+    font-size: 1rem;
+    margin-right: 50px;
+    font-family: 'Poiret One', cursive;
+}
+
+.flexbox-container {
+    display: flex;
+
+}
+
+.form-title {
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-family: 'Poiret One', cursive;
+}
+
+.flexbox-form {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 1.5rem;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    font-family: 'Great Vibes', cursive;
+}
+
+input {
+    background-color: rgb(147 143 140);
+    border: 1px solid rgb(102 86 71);
+    border-radius: 9px;
+    padding: 8px;
+    font-family: 'Dosis', sans-serif;
+    color: #071426;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: #0000007a;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 100;
+}
+
+.flexbox-bot {
+    flex-grow: 0.4;
+    justify-content: left;
+    padding-left: 100px;
+}
+
+.create button {
+    background-color: #80a7df63;
+    color: rgb(255 255 255 / 47%);
+    padding: 15px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Dosis', sans-serif;
+}
+
+.create button:hover {
+    background-color: #9f945d59;
+    color: white;
+}
+
+footer {
+    background-color: rgb(15 54 110);
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #d0d1ce;
+    letter-spacing: 2px;
+}
+
+footer .about {
+    display: flex;
+    align-items: center;
+}
+
+.log-in {
+    color: #a49a91;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+
+.log-in a {
+    text-decoration: none;
+    color: #b2a65b;
+    font-size: larger;
+}
+
+.log-in a:hover {
+    text-decoration: underline;
+}
+
+.githubIcon {
+    width: 30px; 
+    height: 30px; 
+    padding-left: 10px; 
+    padding-right: 10px;
+    transition: transform 1s ease-in-out;
+}
+
+.githubIcon:hover {
+    transform: rotate(360deg);
+}
+
+.about a {
+    color: rgb(154 155 177);
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.about a:hover {
+    text-decoration: underline;
 }
