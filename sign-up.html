@@ -14,8 +14,7 @@
 </head>
 <body>
     <div class="flex-container">
-        <div class="flexbox-left">
-        </div>
+        <div class="flexbox-left"></div>
         <div class="flexbox-right">
             <div class="flexbox flexbox-top">
 
@@ -56,12 +55,15 @@
                     <div class="flexbox-container">
                         <div class="flexbox-form">
                             <label for="password">Password</label>
-                            <input type="password" name="passwor" id="password" placeholder="Password" required>
+                            <input type="password" name="password" id="password" placeholder="At least 6 characters" required>
                         </div>
                         <div class="flexbox-form">
                             <label for="confirm-password">Confirm password</label>
-                            <input type="password" name="confirm-password" id="confirm-password" placeholder="Password" required>
+                            <input type="password" name="confirm-password" id="confirm-password" placeholder="At least 6 characters" required>
                         </div>
+                    </div>
+                    <div>
+                        <div class='error-message'>*Passwords do not match</div>
                     </div>
                     <div class="create">
                         <button type="submit">Create Account</button>
@@ -69,14 +71,14 @@
                 </form>
             </div>
             <div class="flexbox flexbox-bot">
-                <div class="log-in"><p>Already on the waiting list? <a href="index.html">Sign-in</a></p></div>
+                <div class="log-in"><p>Already on the waiting list? <br> <a href="index.html">Sign-in</a></p></div>
             </div>
         </div>
     </div>
     <footer>
         <div class="about">
             <span> <a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form" id="odin">The Odin Project</a> | fatiharapoglu</span>
-            <a href="https://github.com/fatiharapoglu"><img class="githubIcon" src="assets/GitHub-Mark-120px-plus.png" alt="github-logo"></a>
+            <a href="https://github.com/fatiharapoglu"><img class="githubIcon" src="assets/GitHub-Mark-Light-120px-plus.png" alt="github-logo"></a>
         </div>
     </footer>
 </body>
