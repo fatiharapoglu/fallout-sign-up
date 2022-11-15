@@ -11,7 +11,7 @@ body {
 
 .flexbox-left {
     display: flex;
-    background-image: url(assets/falloutposter.webp);
+    background-image: url(../assets/falloutposter.webp);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
