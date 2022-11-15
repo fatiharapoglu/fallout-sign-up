@@ -17,7 +17,7 @@ formDOM.addEventListener('submit' , e => {
     
     if (pass1DOM.value.length < 6){
         e.preventDefault();
-        errorMsgDOM.textContent = "Password must be at least 6 characters."
+        errorMsgDOM.textContent = "*Password must be at least 6 characters."
         errorMsgDOM.style.display = 'block';
     }
 

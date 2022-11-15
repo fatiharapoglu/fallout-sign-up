@@ -16,13 +16,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom left;
-    min-width: 43%;
+    width: 40vw;
 }
 
 .flexbox-right {
     display: flex;
     flex-direction: column;
-    width: 70vh;
+    width: 40vw;
+    padding-left: 75px;
 }
 
 .flexbox {
@@ -34,14 +35,12 @@ body {
 .flexbox-top {
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
     flex-grow: 1.5;
 }
 
 .flexbox-mid {
     flex-grow: 1.5;
     flex-direction: column;
-    padding-left: 100px;
     justify-content: flex-start;
 }
 
@@ -55,7 +54,6 @@ body {
 
 .flexbox-top p {
     font-size: 1rem;
-    margin-right: 50px;
     font-family: 'Poiret One', cursive;
 }
 
@@ -74,9 +72,9 @@ body {
     width: 50%;
     display: flex;
     flex-flow: column wrap;
-    font-size: 1.5rem;
-    margin-right: 50px;
-    margin-bottom: 40px;
+    font-size: 1.3rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
     font-family: 'Great Vibes', cursive;
 }
 
@@ -102,6 +100,8 @@ input {
     color: rgb(255 124 124);
     font-size: 1rem;
     padding-bottom: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
 }
 
 input:not(:focus):not(:placeholder-shown):invalid,
@@ -112,7 +112,6 @@ input:not(:focus):not(:placeholder-shown):invalid,
 .flexbox-bot {
     flex-grow: 0.4;
     justify-content: left;
-    padding-left: 100px;
 }
 
 .create button {
@@ -146,6 +145,7 @@ footer {
 footer .about {
     display: flex;
     align-items: center;
+    font-size: 15px;
 }
 
 .log-in {
