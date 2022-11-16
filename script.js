@@ -25,6 +25,7 @@ formDOM.addEventListener('submit' , e => {
         e.preventDefault();
         pass1DOM.classList.add('error');
         pass2DOM.classList.add('error');
+        errorMsgDOM.textContent = "*Passwords do not match."
         errorMsgDOM.style.display = 'block';
     }
 });
