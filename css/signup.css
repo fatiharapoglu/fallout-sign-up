@@ -164,7 +164,7 @@ footer .about {
     text-decoration: underline;
 }
 
-.githubIcon {
+.github-icon {
     width: 30px; 
     height: 30px; 
     padding-left: 10px; 
@@ -172,7 +172,7 @@ footer .about {
     transition: transform 1s ease-in-out;
 }
 
-.githubIcon:hover {
+.github-icon:hover {
     transform: rotate(360deg);
 }
 
