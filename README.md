@@ -1,9 +1,15 @@
-# Fallout-sign-up (form practice)
+# Fallout Sign-Up
 
-[The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)'s form-practice project.
+Created with **HTML**, **CSS** and **JavaScript**.
 
-Created with HTML, CSS, and JS.
+⮕ [Live preview](https://fatiharapoglu.github.io/fallout-sign-up/sign-up.html)
 
-[Click for live preview](https://fatiharapoglu.github.io/fallout-sign-up/sign-up.html)
+## Features
 
-![RPS](assets/fallout-read-me.jpg)
+-   Displays error messages for form validation within the elements of the page
+-   Extra login page for Bootstrap practice. Just click sign-in to see.
+-   100% Nuclear Detonation Resistant and Vault boy!
+
+## How It Looks
+
+![ss](/assets/readme.jpg)
